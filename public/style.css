@@ -1,0 +1,359 @@
+/* news */
+
+.news {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("/images/olympics_news.png");
+    background-size: contain;
+}
+
+.news_top2 img {
+    position: relative;
+    float: right;
+    width: 40%;
+    height: 40%;
+    padding-left: 20px;
+}
+
+.news_top2 h4 {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.news_title {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    color: #004ef7;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.top {
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/images/back.jpg');
+}
+
+
+/* index */
+
+.mid p {
+    position: absolute;
+    background: linear-gradient(to right, #033669, #135fab, #054d94, #093f76, #2a6cad, #14589c);
+    font-size: 90px;
+    font-weight: bolder;
+    margin: 30px 30px 0px 30px;
+    font-family: 'Public Sans', sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.mid button {
+    font-size: 30px;
+    -webkit-text-fill-color: rgb(26, 34, 177);
+}
+
+.top_two h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    color: #093f76;
+    text-align: center;
+    margin: 25px;
+}
+
+.top_two h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+}
+
+.top_two img {
+    height: 300px;
+    height: 300px;
+}
+
+.top_two div {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 30px;
+    transition: transform .2s;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.top_two div:hover {
+    transform: scale(1.1);
+}
+
+.top_two {
+    margin-top: 40px;
+    text-align: center;
+    background-image: url("/images/oly.gif");
+    background-size: contain;
+}
+
+.info_back {
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ana_dist {
+    margin-bottom: 60px
+}
+
+.ana1 {
+    background-color: #e9e9eb;
+    color: black;
+}
+
+.ana2 {
+    background-color: #27263e;
+    color: white;
+}
+
+.third_div p {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+
+/* .third_div {
+    background-image: url("/images/whole_back.gif");
+} */
+
+
+/* analysis */
+
+.analysis_top {
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/images/coach4.jpg');
+    margin-bottom: 50px;
+}
+
+.navbar-nav a {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.analysis_mid p {
+    position: absolute;
+    font-size: 90px;
+    font-weight: bolder;
+    margin: 30px 30px 0px 30px;
+    font-family: 'Public Sans', sans-serif;
+    color: #2b5eb6;
+}
+
+.analysis_mid button {
+    font-size: 30px;
+    -webkit-text-fill-color: rgb(26, 34, 177);
+}
+
+.analysis_top2 {
+    margin-top: 40px;
+    text-align: center;
+    color: #5b606b;
+    font-family: 'Roboto Slab', serif;
+}
+
+.anatext {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.textmng {
+    margin-top: 40px;
+}
+
+.ana_head {
+    margin: 40px;
+    font-size: 50px;
+}
+
+.ro1 {
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 60px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    padding: 20px;
+}
+
+
+/* play */
+
+.play_top {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("/images/olym.jpg");
+}
+
+.play_top h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.play_top a {
+    color: #339dea;
+}
+
+.play_og {
+    margin: 20px;
+    text-align: center;
+}
+
+.play_top .container .card {
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.play_top .container .card:hover {
+    transform: scale(1.1);
+}
+
+
+/* footer */
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.bigimg2 {
+    width: 760px;
+    height: 600px;
+}
+
+
+/* about */
+
+.play_top1 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("images/about_back.jpg");
+    color: white;
+}
+
+.play_top1 h1 {
+    font-size: 60px;
+    padding: 40px;
+}
+
+.about_mn {
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+}
+
+.about_mn img {
+    width: 100px;
+    height: 100px;
+}
+
+.i2Style {
+    font: bold 33px Tahoma, Geneva, sans-serif;
+    font-style: normal;
+    color: #1568db;
+    background: #ffff;
+    border: 0px solid #ffffff;
+    text-shadow: 0px -1px 1px #222222;
+    box-shadow: 7px 5px 10px #000000;
+    -moz-box-shadow: 7px 5px 10px #000000;
+    -webkit-box-shadow: 7px 5px 10px #000000;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    width: 280px;
+    padding: 7px 31px;
+}
+
+.about_img_arr {
+    width: 10px;
+    height: 10px;
+}
+
+.about_img {
+    border-radius: 100%;
+}
+
+.about_adjs p {
+    margin: 0px;
+}
+
+.about_imm {
+    cursor: pointer;
+}
+
+.about_writeus {
+    margin-top: 50px;
+    font-family: 'Roboto Slab', serif;
+    color: #000000;
+}
+
+.about_writeus a:hover {
+    font-size: 25px;
+}
+
+
+/* index */
+
+@media only screen and (max-width: 900px) {
+    .top {
+        height: 100vh;
+        min-height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url('/images/back.jpg');
+    }
+    .mid p {
+        position: absolute;
+        font-size: 50px;
+        font-weight: bolder;
+        margin-top: 72px;
+    }
+    .top_two div {
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .top_three .one {
+        height: 100%;
+        width: 100%;
+    }
+    .ana_dist {
+        margin-bottom: 0px;
+    }
+    .sm_dist {
+        margin-bottom: 120px;
+    }
+    /* analysis */
+    .analysis_mid p {
+        position: absolute;
+        font-size: 50px;
+        font-weight: bolder;
+        margin-top: 72px;
+        margin-left: 3px;
+        background-color: white;
+    }
+    .analysis_top {
+        height: 70vh;
+        min-height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url('/images/coach4.jpg');
+    }
+    .bigimg {
+        width: 548px;
+        height: 700px;
+    }
+    .bigimg2 {
+        width: 500px;
+        height: 500px;
+    }
+}

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olympic</title>
+    <link rel="icon" href="\images\logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+</head>
+
+<body>
+    <div class="analysis_top">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #bcd7eb;">
+            <div class="container-fluid">
+                <img class="logo" src="images\logo.png" alt="">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="/">Home</a>
+                        <a class="nav-link" href="/news">Olympic News</a>
+                        <a class="nav-link active" href="analysis.html">Analysis</a>
+                        <a class="nav-link" href="/play">Gallery</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="analysis_mid">
+            <p>Analysis & Insights Of Olympics <br>
+                <a href="/about"><button class="btn btn-warning">About Website</button></a>
+            </p>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <p class="ana_head">Data Analytics for better vision<br>
+            <h6><i>*hower on graph for in-depth info</i></h6>
+        </p>
+        <div class="row ro1">
+            <div class="col">
+                <canvas id="sport" style="width:100%;max-width:600px"></canvas>
+            </div>
+            <div class="col anatext">
+                India first participated in the Olympic Games in 1900. India has emerged as a competitive country in the past few years. It has dominated the hockey game at the Olympics with 12 Medals. India is ranked 51st on the overall list of Olympic medal winners.
+                According to the Indian Olympic Association, India has won a total of 35 Olympic medals, including 10 gold, 9 silver, and 16 bronze.
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center">
+        <div class="row ro1">
+            <div class="col anatext">
+                As of the 2020 Games, all of the current 206 NOCs have participated in at least two editions of the Olympic Games. The Games have been held in nineteen countries over five continents: four times in the United States (1904, 1932, 1984, and 1996); three
+                times in Great Britain (1908, 1948, and 2012); twice each in Greece (1896 and 2004), France (1900 and 1924), Germany (1936 and 1972), Australia (1956 and 2000), and Japan (1964 and 2020); and once each in Sweden (1912), Belgium (1920),
+                the Netherlands (1928), Finland (1952), Italy (1960), Mexico (1968), Canada (1976), the Soviet Union (1980), South Korea (1988), Spain (1992), China (2008), and Brazil (2016). </div>
+            <div class="col ">
+                <div id="medals" style="width:100%;max-width:700px"></div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center">
+        <div class="row ro1">
+            <div class="col">
+                <canvas id="gender" style="width:100%;max-width:300px"></canvas>
+            </div>
+            <div class="col anatext">
+                Over time, the number of female athletes slowly increased, although it did not hit the ten percent mark until 1952, or the quarter mark until 1988; while the highest level of female participation was in 2020, where almost 5,400 women competed (49 percent).
+                In the 2020 Olympics in Tokyo, a number of mixed shooting events, table tennis doubles, and swimming and sprinting relays were introduced in an attempt to improve participation among female athletes
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center">
+        <div class="row ro1">
+            <div class="col anatext">
+                Between 1992 and 2021, the average ages of male Olympians increased from 25 to 27 and those of female Olympians increased from 24 to 26. We found that older athletes are not just participating; they’re winning medals.
+                <div class="col">
+                    <canvas id="age" style="width:100%;max-width:900px"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center">
+        <div class="row ro1">
+            <div class="col">
+                <canvas id="overall" style="width:100%;max-width:400px"></canvas>
+            </div>
+            <div class="col anatext ">
+                <p class="textmng">Males have dominated the Olympics participation. Here are some games where the difference in participation between females and males is less. New games  were introduced to increase female participation. Over the years, females have shown
+                    more participation.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container text-center">
+        <div class="row ro1">
+            <div class="col">
+                <iframe width="500" height="400" frameborder="0" scrolling="no" src="//plotly.com/~pranav_jadhav_007/1.embed?config={'displayModeBar': false}?showlink=false"></iframe> <br><br><br><br>
+            </div>
+            <div class="col anatext ">
+                <p>Michael Fred Phelps II is an American former competitive swimmer. He is the most successful and decorated Olympian of all time. The most decorated female Olympic athlete of all time, Larisa Latynina, spearheaded the Soviet Union’s rise
+                    at the Games. Marit Bjoergen won her 12th medal at the 2018 Winter Games by taking bronze with her Norwegian teammates, which made her the most decorated Winter Olympian of all time. 2008 Beijing Summer Olympics. Andrianov is the third
+                    athlete in cumulative Olympic medals after Phelps and Larisa Latynina.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center">
+        <div class="row ro1">
+            <div class="col anatext">
+                <p>The chart below shows the number of medals won by USA, Germany, Great Britain and France</p>
+                <h6><i>*can change country from below dropdown</i></h6>
+                <div class="col">
+                    <iframe class="bigimg" width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~pranav_jadhav_007/9.embed?config={'displayModeBar': false}?showlink=false"></iframe> </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center">
+        <div class="row ro1">
+            <div class="col anatext">
+                <p>The model below shows the number of Gold, Silver and Bronze medal won by top participants.</p>
+                <div class="col">
+                    <iframe class="bigimg2" frameborder="0" src="//plotly.com/~pranav_jadhav_007/11.embed?config={'displayModeBar': false}?showlink=false"></iframe> </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center">
+        <div class="row ro1">
+            <div class="col">
+                <iframe width="600" height="500" frameborder="0" scrolling="no" src="//plotly.com/~pranav_jadhav_007/6.embed?config={'displayModeBar': false}?showlink=false"></iframe> <br><br><br><br>
+            </div>
+            <div class="col anatext ">
+                <p>Detailed report is shown here with the distribution of medals in different sectors of play</p>
+                <ul>
+                    <li>USA tops in all format in men, women, mixed and open.</li>
+                    <li>USA got 50 per more medals than it's other competator in mens section. </li>
+                    <li>Great Britain men have won more medals than German men.</li>
+                    <li>German women have won more medals than Great Britain women.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+        <div><img src="images\logo\logo.jpg" alt=""></div>
+        <p>Copyright© 2022 - 2023 Olympics</p>
+    </footer>
+    <script>
+        const xValues = ['Hockey', 'Wrestling', 'Shooting', 'Boxing', 'Badminton', 'Athletics',
+            'Weightlifting', 'Tennis'
+        ];
+        const yValues = [12, 7, 4, 3, 3, 3, 2, 1];
+
+        new Chart("sport", {
+            type: "bar",
+            data: {
+                labels: xValues,
+                datasets: [{
+                    fill: false,
+                    lineTension: 0,
+                    backgroundColor: "rgba(0,0,255,1.0)",
+                    borderColor: "rgba(0,0,255,0.1)",
+                    data: yValues
+                }]
+            },
+            options: {
+                legend: {
+                    display: false,
+                },
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            min: 0,
+                            max: 16
+                        },
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Medal Count'
+                        }
+                    }],
+                    xAxes: [{
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Discipline Title'
+                        }
+                    }],
+                },
+                title: {
+                    display: true,
+                    text: "India's Medals achievement in each sport"
+                }
+            },
+
+        });
+
+
+
+
+
+
+        const xval = [1896, 1900, 1904, 1906, 1908, 1912, 1920, 1924, 1928, 1932, 1936,
+            1948, 1952, 1956, 1960, 1964, 1968, 1972, 1976, 1980, 1984, 1988,
+            1992, 1996, 2000, 2004, 2008, 2012, 2016
+        ];
+        const yval = [12, 31, 15, 21, 22, 29, 29, 46, 46, 47, 50, 61, 69,
+            75, 84, 94, 112, 121, 93, 90, 148, 160, 170, 197, 200, 201,
+            204, 205, 207
+        ];
+
+        const data = [{
+            x: xval,
+            y: yval,
+            type: "line",
+            orientation: "v",
+            marker: {
+                color: "rgba(0,0,255,0.6)"
+            }
+        }];
+
+        let layout = {
+            title: {
+                text: 'Number of countries participated till 2016',
+                font: {
+                    family: 'Times New Roman',
+                    size: 24
+                },
+            },
+            xaxis: {
+                title: {
+                    text: 'Year',
+                    font: {
+                        size: 18,
+                        color: '#7f7f7f'
+                    }
+                }
+            },
+            yaxis: {
+                title: {
+                    text: 'Countries Count',
+                    font: {
+                        size: 18,
+                        color: '#7f7f7f'
+                    }
+                }
+            }
+        }
+
+        Plotly.newPlot("medals", data, layout);
+
+
+
+
+        const xval2 = ["Male", "Female"];
+        const yval2 = [196594, 74522];
+        var barColors = ["grey", "blue"];
+
+        new Chart("gender", {
+            type: "pie",
+            data: {
+                labels: xval2,
+                datasets: [{
+                    backgroundColor: barColors,
+                    data: yval2
+                }]
+            },
+            options: {
+                title: {
+                    display: true,
+                    text: "Gender Participation in Olympics"
+                }
+            }
+        });
+
+
+
+
+
+        new Chart("age", {
+            type: 'line',
+            data: {
+                labels: [1896, 1900, 1904, 1906, 1908, 1912, 1920, 1924, 1928, 1932, 1936,
+                    1948, 1952, 1956, 1960, 1964, 1968, 1972, 1976, 1980, 1984, 1988,
+                    1992, 1994, 1996, 1998, 2000, 2002, 2004, 2006, 2008, 2010, 2012,
+                    2014, 2016
+                ],
+                datasets: [{
+                    label: 'Average Age of Participants each year',
+                    data: [23.58064516, 29.03403141, 26.69814995, 27.12525253, 26.97022838,
+                        27.53861998, 29.29097766, 28.37332454, 29.11255693, 32.58207957,
+                        27.53032832, 28.7839467, 26.16154609, 25.92667357, 25.16884846,
+                        24.94439728, 24.24804556, 24.30860659, 23.84181818, 23.69474286,
+                        23.89834682, 24.07943155, 24.31889547, 24.4221026, 24.91504502,
+                        25.16319734, 25.42250362, 25.91628133, 25.63951499, 25.95915107,
+                        25.73411765, 26.1242617, 25.96137771, 25.98732366, 26.20791935
+                    ],
+                    backgroundColor: 'rgb(169,176,192,0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+
+
+
+
+
+        new Chart("overall", {
+            type: 'radar',
+            data: {
+                labels: [
+                    'Cycling',
+                    'Alpine Skiing',
+                    'Swimming',
+                    'Shooting',
+                    'Cross Country Skiing',
+                    'Fencing',
+                    'Tennis'
+                ],
+                datasets: [{
+                    label: 'Male Participation',
+                    data: [9465, 5431, 13345, 9724, 5748, 8735, 1684],
+                    fill: true,
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    pointBackgroundColor: 'rgb(255, 99, 132)',
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: 'rgb(255, 99, 132)'
+                }, {
+                    label: 'Female Participation',
+                    data: [1394, 3398, 9850, 1724, 3385, 2000, 1178],
+                    fill: true,
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    borderColor: 'rgb(54, 162, 235)',
+                    pointBackgroundColor: 'rgb(54, 162, 235)',
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: 'rgb(54, 162, 235)'
+                }]
+            }
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
